@@ -16,8 +16,8 @@ namespace casad
 
             Console.WriteLine(" \n ------------------------------ \n ");
 
-            Console.WriteLine("1.- abrir cortina");
-            Console.WriteLine("2.- cerrar cortina");
+            Console.WriteLine("1.- abrir cortina 2");
+            Console.WriteLine("2.- cerrar cortina 2");
             Console.WriteLine(" \n ------------------------------- \n ");
 
 
