@@ -178,7 +178,7 @@ namespace casad
                     while (opciones != 6)
 
                     {
-                        opciones = z.ListsMenu();
+                        opciones = z.ListsxMenu();
 
                         if (opciones == 1)
                         {
