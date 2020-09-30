@@ -47,7 +47,8 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("q");
                             Console.WriteLine(" luz de la sala encendida ");
-                        }
+                            Console.WriteLine(" \n ");
+                        }                      
 
                         else if (opciones == 2)
                         {
@@ -55,6 +56,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             Console.WriteLine(" luz de la sala apagada");
                             app.EnviarCaracter("w");
+                            Console.WriteLine(" \n ");
                         }
 
                         Console.ReadKey();
@@ -76,6 +78,7 @@ namespace casad
                             Console.WriteLine("\n");
                             app.EnviarCaracter("e");
                             Console.WriteLine("televisor encendido");
+                            Console.WriteLine(" \n ");
                         }
 
                         else if (opciones == 2)
@@ -84,6 +87,7 @@ namespace casad
                             Console.WriteLine("\n");
                             app.EnviarCaracter("r");
                             Console.WriteLine("televisor apagado");
+                            Console.WriteLine(" \n ");
                         }
 
                         Console.ReadKey();
@@ -108,6 +112,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("t");
                             Console.WriteLine("garage abierto");
+                            Console.WriteLine(" \n ");
                         }
 
                         else if (opciones == 2)
@@ -116,6 +121,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("y");
                             Console.WriteLine("medio garage abierto");
+                            Console.WriteLine(" \n ");
                         }
 
                         else if (opciones == 3)
@@ -124,6 +130,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             Console.WriteLine("garage cerrado");
                             app.EnviarCaracter("u");
+                            Console.WriteLine(" \n ");
                         }
 
                         Console.ReadKey();
@@ -144,6 +151,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("z");
                             Console.WriteLine("cortina 1 abierta");
+                            Console.WriteLine(" \n ");
                         }
 
                         else if (opciones == 2)
@@ -152,6 +160,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             Console.WriteLine("cortina 1 cerrada");
                             app.EnviarCaracter("b");
+                            Console.WriteLine(" \n ");
                         }
 
 
@@ -173,6 +182,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("c");
                             Console.WriteLine("cortina 2 abierta");
+                            Console.WriteLine(" \n ");
                         }
 
                         else if (opciones == 2)
@@ -181,6 +191,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             Console.WriteLine("cortina 2 cerrada");
                             app.EnviarCaracter("d");
+                            Console.WriteLine(" \n ");
                         }
 
                         Console.ReadKey();
@@ -204,7 +215,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("i");
                             Console.WriteLine("intensidad 1 de la luz del estudio");
-
+                            Console.WriteLine(" \n ");
                         }
 
                         else if (opciones == 2)
@@ -213,6 +224,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("o");
                             Console.WriteLine("intensidad 2 de la luz del estudio");
+                            Console.WriteLine(" \n ");
                         }
 
                         else if (opciones == 3)
@@ -221,6 +233,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("p");
                             Console.WriteLine("intensidad 3 de la luz del estudio");
+                            Console.WriteLine(" \n ");
                         }
 
                         else if (opciones == 4)
@@ -229,6 +242,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("a");
                             Console.WriteLine("intensidad 4 de la luz del estudio");
+                            Console.WriteLine(" \n ");
                         }
 
 
@@ -238,6 +252,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("s");
                             Console.WriteLine("intensidad 5 de la luz del estudio");
+                            Console.WriteLine(" \n ");
                         }
 
                         else if (opciones == 6)
@@ -246,6 +261,7 @@ namespace casad
                             Console.WriteLine(" \n ");
                             Console.WriteLine("luz del estudio apagada");
                             app.EnviarCaracter("h");
+                            Console.WriteLine(" \n ");
                         }
 
                         Console.ReadKey();
