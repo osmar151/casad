@@ -32,15 +32,18 @@ namespace casad
             {
 
                 opciones = m.ListaMenu();
+                Console.Clear();
 
                 if (opciones == 1)
                 {
                     while (opciones != 2)
                     {
                         opciones = ls.ListMenu();
+                        Console.Clear();
 
                         if (opciones == 1)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("q");
                             Console.WriteLine(" luz de la sala encendida ");
@@ -48,6 +51,7 @@ namespace casad
 
                         else if (opciones == 2)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             Console.WriteLine(" luz de la sala apagada");
                             app.EnviarCaracter("w");
@@ -64,9 +68,11 @@ namespace casad
                     while (opciones != 2)
                     {
                         opciones = t.ListatMenu();
+                        Console.Clear();
 
                         if (opciones == 1)
                         {
+                            Console.Clear();
                             Console.WriteLine("\n");
                             app.EnviarCaracter("e");
                             Console.WriteLine("televisor encendido");
@@ -74,6 +80,7 @@ namespace casad
 
                         else if (opciones == 2)
                         {
+                            Console.Clear();
                             Console.WriteLine("\n");
                             app.EnviarCaracter("r");
                             Console.WriteLine("televisor apagado");
@@ -93,9 +100,11 @@ namespace casad
                     {
 
                         opciones = g.LissMenu();
+                        Console.Clear();
 
                         if (opciones == 1)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("t");
                             Console.WriteLine("garage abierto");
@@ -103,6 +112,7 @@ namespace casad
 
                         else if (opciones == 2)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("y");
                             Console.WriteLine("medio garage abierto");
@@ -110,6 +120,7 @@ namespace casad
 
                         else if (opciones == 3)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             Console.WriteLine("garage cerrado");
                             app.EnviarCaracter("u");
@@ -125,9 +136,11 @@ namespace casad
                     while (opciones != 2)
                     {
                         opciones = c.ListsMenu();
+                        Console.Clear();
 
                         if (opciones == 1)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("z");
                             Console.WriteLine("cortina 1 abierta");
@@ -135,6 +148,7 @@ namespace casad
 
                         else if (opciones == 2)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             Console.WriteLine("cortina 1 cerrada");
                             app.EnviarCaracter("b");
@@ -151,9 +165,11 @@ namespace casad
                     while (opciones != 2)
                     {
                         opciones = l.ListsMenu();
+                        Console.Clear();
 
                         if (opciones == 1)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("c");
                             Console.WriteLine("cortina 2 abierta");
@@ -161,6 +177,7 @@ namespace casad
 
                         else if (opciones == 2)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             Console.WriteLine("cortina 2 cerrada");
                             app.EnviarCaracter("d");
@@ -179,9 +196,11 @@ namespace casad
 
                     {
                         opciones = z.ListsxMenu();
+                        Console.Clear();
 
                         if (opciones == 1)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("i");
                             Console.WriteLine("intensidad 1 de la luz del estudio");
@@ -190,6 +209,7 @@ namespace casad
 
                         else if (opciones == 2)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("o");
                             Console.WriteLine("intensidad 2 de la luz del estudio");
@@ -197,6 +217,7 @@ namespace casad
 
                         else if (opciones == 3)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("p");
                             Console.WriteLine("intensidad 3 de la luz del estudio");
@@ -204,6 +225,7 @@ namespace casad
 
                         else if (opciones == 4)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("a");
                             Console.WriteLine("intensidad 4 de la luz del estudio");
@@ -212,6 +234,7 @@ namespace casad
 
                         else if (opciones == 5)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             app.EnviarCaracter("s");
                             Console.WriteLine("intensidad 5 de la luz del estudio");
@@ -219,6 +242,7 @@ namespace casad
 
                         else if (opciones == 6)
                         {
+                            Console.Clear();
                             Console.WriteLine(" \n ");
                             Console.WriteLine("luz del estudio apagada");
                             app.EnviarCaracter("h");
